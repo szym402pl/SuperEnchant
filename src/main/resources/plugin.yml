@@ -1,0 +1,14 @@
+name: SuperEnchant
+version: '1'
+main: me.xiaojibazhanshi.superEnchant.SuperEnchant
+api-version: '1.21'
+authors: [ XiaoJibaZhanshi ]
+description: Allows you to enchant stuff MORE.
+commands:
+  superenchant:
+    description: Above vanilla enchants
+    permission: superenchant.use
+    usage: /superenchant <enchant> <multiplier>
+permissions:
+  superenchant.use:
+    default: op
